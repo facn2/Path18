@@ -1,13 +1,13 @@
 ![Path18 logo](logo.png)
 
-##### Web App for exposing young people to a variety of career paths :mortar_board:
+##### web app for informing young people of a variety of careers and paths :mortar_board:
 
 ### Problem Statement:
 * Unexposure to variety of jobs and career paths for young people
 * Uncertainty around career prospects
 
 ### User Journey:
-#### As a user I can browse a variety of career paths and view detailed information about the ones that I am interested in.
+As a user I can browse a variety of career paths and view detailed information about the ones that I am interested in.
 
 ### User Story:
 ##### As a user I can...
