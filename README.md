@@ -1,5 +1,7 @@
 ![Path18 logo](logo.png)
 
+[![Build Status](https://travis-ci.org/facn2/Path18.svg?branch=master)](https://travis-ci.org/facn2/Path18)
+
 ##### web app for informing young people of a variety of careers and paths :mortar_board:
 
 ### Problem Statement:
