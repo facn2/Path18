@@ -20,11 +20,16 @@ As a user I can browse a variety of career paths and view detailed information a
 * click on job to view details on the job and career path
 * read details instructions for the app in the help page
 
+---
+
 ### Wireframe:
 
 ### Architecture:
 
 ### Technologies:
+* Express
+* Handlebars
+* MongoDB
 
 ### Team Guidelines:
 
@@ -34,7 +39,18 @@ As a user I can browse a variety of career paths and view detailed information a
 * ES6 on backend
 * all team member understand code before approval
 
+**Git Flow**
+* Split each user story into technical tasks
+* Assign yourself to a task and add the `in-progress` label
+* Small commits with each sub-task of the technical issue
+* Create a `[WIP]` branch
+* Once the work is complete remove `[WIP]` and assign each team member to review
+* Add the `awaiting-review` label to the issue and PR
+* Request changes if appropriate
+* The final person to approve the PR should assign both QAs to review
+
 ### Stretch Goals:
+* ability to delete a job from the list of matched jobs
 * user authentication
 * use of logic for browsing job options
 * expand data to include colleges
