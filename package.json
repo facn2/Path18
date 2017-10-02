@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
-    "lint": "semistandard | snazzy"
+    "lint": "node_modules/.bin/semistandard | node_modules/.bin/snazzy"
   },
   "pre-commit": [
     "precommit-msg",
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/facn2/Path18#readme",
   "devDependencies": {
     "pre-commit": "^1.2.2",
-    "semistandard": "^11.0.0"
+    "semistandard": "^11.0.0",
+    "snazzy": "^7.0.0"
   }
 }
