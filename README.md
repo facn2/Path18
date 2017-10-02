@@ -5,8 +5,9 @@
 **[Web app](https://path18.herokuapp.com/) for informing young people of a variety of careers and paths** :mortar_board:
 
 ### Problem Statement:
-* Unexposure to variety of jobs and career paths for young people
-* Uncertainty around career prospects
+* Young people have little exposure to the variety of jobs and careers paths they could pursue.
+* Uncertainty around career prospects.
+* Little knowledge of the path to take to get a specific job.
 
 ### User Journey:
 As a user I can browse a variety of career paths and view detailed information about the ones that I am interested in.
