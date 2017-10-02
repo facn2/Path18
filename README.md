@@ -34,24 +34,28 @@ As a user I can browse a variety of career paths and view detailed information a
 
 ### Team Guidelines:
 
-* CamelCase for JavaScript id's
-* kebab-case for CSS Classes
-* comments for code clarification
-* ES6 on backend
-* all team member understand code before approval
+* CamelCase for JavaScript id's.
+* kebab-case for CSS Classes.
+* snake_case for multiple word file names.
+* comments for code clarification.
+* ES6 on backend and ES5 on the frontend.
+* all team members should understand code before approval (comments on PR).
+
 
 **Git Flow**
-* Split each user story into technical tasks
-* Assign yourself to a task and add the `in-progress` label
-* Small commits with each sub-task of the technical issue
-* Create a `[WIP]` branch
-* Once the work is complete remove `[WIP]` and assign each team member to review
-* Add the `awaiting-review` label to the issue and PR
-* Request changes if appropriate
-* The final person to approve the PR should assign both QAs to review
+* Split each user story into technical tasks.
+* Assign yourself to a task and add the `in-progress` label.
+* Small commits with each sub-task of the technical issue.
+* Create a `[WIP]` branch.
+* Once the work is complete remove `[WIP]` and assign each team member to review.
+* Add the `awaiting-review` label to the issue and PR.
+* Request changes if appropriate.
+* The final person to approve the PR should assign both QAs to review.
+* Close issue after the PR has been merged and all tasks relating to the issue are complete.
 
 ### Stretch Goals:
-* ability to delete a job from the list of matched jobs
-* user authentication
-* use of logic for browsing job options
-* expand data to include colleges
+* Ability to delete a job from the list of matched jobs.
+* User authentication.
+* Use of logic for browsing job options.
+* Expand data to include colleges.
+* Expand data to include more jobs.
