@@ -42,7 +42,12 @@ As a user I can browse a variety of career paths and view detailed information a
 
 ---
 
-### Wireframe:
+### Prototype:
+
+<img alt="Prototype start and info page" src="https://user-images.githubusercontent.com/25408167/31076462-ddb5dd62-a782-11e7-993b-b03bd4b87c79.png" width=49%>
+<img alt="Prototype start and info page" src="https://user-images.githubusercontent.com/25408167/31076752-61ce4a70-a784-11e7-8542-998d451edd45.png" width=50%>
+<img alt="Prototype start and info page" src="https://user-images.githubusercontent.com/25408167/31076464-dde5ca54-a782-11e7-9d93-30a080092e30.png" width=25%>
+<img alt="Prototype start and info page" src="https://user-images.githubusercontent.com/25408167/31076466-ddead8dc-a782-11e7-8e45-ea310e21ac7a.png" width=25%>
 
 ### Architecture:
 
