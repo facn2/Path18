@@ -26,5 +26,8 @@
     "pre-commit": "^1.2.2",
     "semistandard": "^11.0.0",
     "snazzy": "^7.0.0"
+  },
+  "dependencies": {
+    "express-handlebars": "^3.0.0"
   }
 }
