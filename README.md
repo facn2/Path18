@@ -33,12 +33,12 @@ As a user I can browse a variety of career paths and view detailed information a
 
 ### User Story:
 ##### As a user I can...
-* read welcome page and instructions on how to use the app
-* view card with job and decide if I like / dislike it
-* click on card to view more details
-* View list of jobs I like
-* click on job to view details on the job and career path
-* read details instructions for the app in the help page
+* read welcome page and instructions on how to use the app.
+* view card with job and decide if I like / dislike it.
+* click on card to view more details.
+* View list of jobs I like.
+* click on job to view details on the job and career path.
+* read details instructions for the app in the help page.
 
 ---
 
@@ -67,10 +67,10 @@ As a user I can browse a variety of career paths and view detailed information a
 * Small commits with each sub-task of the technical issue.
 * Create a `[WIP]` branch.
 * Once the work is complete remove `[WIP]` and assign each team member to review.
-* Add the `awaiting-review` label to the issue and PR.
+* Remove the `in-progress` label and add the `awaiting-review` label and to the issue and PR.
 * Request changes if appropriate.
 * The final person to approve the PR should assign both QAs to review.
-* Close issue after the PR has been merged and all tasks relating to the issue are complete.
+* Close issue *after* the PR has been merged and all tasks relating to the issue are complete.
 
 ### Stretch Goals:
 * Ability to delete a job from the list of matched jobs.
