@@ -4,6 +4,25 @@
 
 **[Web app](https://path18.herokuapp.com/) for informing young people of a variety of careers and paths** :mortar_board:
 
+### Local Install
+
+Clone the repository.
+```
+git clone https://github.com/facn2/Path18.git
+```
+Install npm modules.
+```
+npm install
+```
+View on localhost.
+```
+npm start
+```
+Run tests.
+```
+npm test
+```
+
 ### Problem Statement:
 * Young people have little exposure to the variety of jobs and careers paths they could pursue.
 * Uncertainty around career prospects.
