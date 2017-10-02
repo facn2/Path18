@@ -1,4 +1,4 @@
-![Path18 logo](logo.png)
+![Path18 logo](./public/images/logo.png)
 
 [![Build Status](https://travis-ci.org/facn2/Path18.svg?branch=master)](https://travis-ci.org/facn2/Path18)
 
