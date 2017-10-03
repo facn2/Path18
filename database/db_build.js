@@ -7,21 +7,20 @@ db.once('open', () => {
   console.log('we are connected to DB');
   career.collection.drop(); // once app is open, drop schema career
 
-  let dataLength = 0;
-  for (let i = 0; i < careers.length; i++) {
-    careers[i].save((error, result) => {
-      if (error) {
-        throw new Error('there is an error');
-      } else {
-        dataLength++;
-        if (dataLength === careers.length) {
-          exit();
-        } // no else
+careers.forEach((career) => {
+  career.save((error,result) => {
+    if (error) {
+      console.log(error);//render error hbs
+      return
       }
     });
-  }
-
-  function exit () {
-    mongoose.disconnect();
-  }
+  })
 });
+
+
+
+
+// not sure if we need this
+// function exit () {
+//   mongoose.disconnect();
+// }
