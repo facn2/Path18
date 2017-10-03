@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/index.js",
     "devStart": "nodemon node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "nyc mocha ./tests/test.js",
+    "coverage": "nyc report ./tests/test.js && codecov -t fc85aebd-192d-49b9-af6c-0cb738d73b21",
     "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
     "lint": "node_modules/.bin/semistandard | node_modules/.bin/snazzy"
   },
@@ -25,7 +26,11 @@
   },
   "homepage": "https://github.com/facn2/Path18#readme",
   "devDependencies": {
+    "chai": "^4.1.2",
+    "codecov": "^2.3.0",
+    "mocha": "^4.0.0",
     "nodemon": "^1.12.1",
+    "nyc": "^11.2.1",
     "pre-commit": "^1.2.2",
     "semistandard": "^11.0.0",
     "snazzy": "^7.0.0"
