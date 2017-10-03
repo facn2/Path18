@@ -2,7 +2,7 @@ exports.client = (req, res) => {
   res.status(404).render('error', {
     layout: 'error',
     statusCode: 404,
-    message: 'What are you looking searching for?'
+    message: 'What are you looking for?'
   });
 };
 
