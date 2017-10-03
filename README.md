@@ -55,6 +55,8 @@ As a user I can browse a variety of career paths and view detailed information a
 * Express
 * Handlebars
 * MongoDB
+* Mocha
+* Chai
 
 ### Team Guidelines:
 
