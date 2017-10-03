@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "devStart": "nodemon node src/index.js",
+    "devStart": "nodemon src/index.js",
     "test": "nyc mocha ./tests/test.js",
     "coverage": "nyc report ./tests/test.js && codecov -t fc85aebd-192d-49b9-af6c-0cb738d73b21",
     "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
