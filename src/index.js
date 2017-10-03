@@ -1,5 +1,9 @@
 const app = require('./app');
+const db = require('./../database/db_connection.js');
 
-app.listen(app.get('port'), () => {
-  console.log(`App running on port ${app.get('port')}`);
+db.once('open', function () {
+  console.log('connected to DB');
+  app.listen(app.get('port'), () => {
+    console.log('Magic happens on port 8181!');
+  });
 });
