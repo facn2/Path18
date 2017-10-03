@@ -1,7 +1,5 @@
-//schema
 const mongoose = require('mongoose');
-const Schema = mognoose.Schema;
-
+const Schema = mongoose.Schema;
 
 const careerSchema = new Schema({
   title: String,
@@ -16,6 +14,6 @@ const careerSchema = new Schema({
   institution: String
 });
 
-const career = mongoose.model('career', careerSchema);
+const Career = mongoose.model('Career', careerSchema);
 
-module.exports = career;
+module.exports = Career;
