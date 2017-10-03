@@ -34,12 +34,12 @@ As a user I can browse a variety of career paths and view detailed information a
 
 ### User Story:
 ##### As a user I can...
-* read welcome page and instructions on how to use the app.
-* view card with job and decide if I like / dislike it.
-* click on card to view more details.
+* Read welcome page and instructions on how to use the app.
+* View card with job and decide if I like / dislike it.
+* Click on card to view more details.
 * View list of jobs I like.
-* click on job to view details on the job and career path.
-* read details instructions for the app in the help page.
+* Click on job to view details on the job and career path.
+* Read details instructions for the app in the help page.
 
 ---
 
@@ -77,9 +77,9 @@ Take a look at the prototype on [figma](https://www.figma.com/file/Mm2muc8uV1Km4
 * CamelCase for JavaScript id's.
 * kebab-case for CSS Classes.
 * snake_case for multiple word file names.
-* comments for code clarification.
+* Comments where appropriate for code clarification.
 * ES6 on backend and ES5 on the frontend.
-* all team members should understand code before approval (comments on PR).
+* All team members should understand code before approval (comments on PR).
 
 
 **Git Flow**
