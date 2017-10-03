@@ -57,9 +57,18 @@ Take a look at the prototype on [figma](https://www.figma.com/file/Mm2muc8uV1Km4
 ![App architecture](https://user-images.githubusercontent.com/25408167/31123917-e141ee08-a84a-11e7-8524-57ca1ba9e4a5.jpg)
 
 ### Technologies:
+
+**Back-end Frameworks**
+
 * Express
 * Handlebars
+
+**Databases**
+
 * MongoDB
+
+**Testing**
+
 * Mocha
 * Chai
 
