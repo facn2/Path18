@@ -1,6 +1,7 @@
 ![Path18 logo](./public/images/logo.png)
 
 [![Build Status](https://travis-ci.org/facn2/Path18.svg?branch=master)](https://travis-ci.org/facn2/Path18)
+[![codecov](https://codecov.io/gh/facn2/Path18/branch/master/graph/badge.svg)](https://codecov.io/gh/facn2/Path18)
 
 **[Web app](https://path18.herokuapp.com/) for informing young people of a variety of careers and paths** :mortar_board:
 
