@@ -5,8 +5,6 @@ const app = express();
 const controllers = require('./controllers/router');
 const helpers = require('./views/helpers/index');
 
-
-
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 app.engine(
