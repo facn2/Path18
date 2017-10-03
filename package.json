@@ -11,6 +11,12 @@
     "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
     "lint": "node_modules/.bin/semistandard | node_modules/.bin/snazzy"
   },
+  "semistandard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  },
   "pre-commit": [
     "precommit-msg",
     "lint"
