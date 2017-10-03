@@ -2,10 +2,10 @@
   "name": "path18",
   "version": "1.0.0",
   "description": "![Path18 logo](logo.png)",
-  "main": "index.js",
+  "main": "start_server.js",
   "scripts": {
-    "start": "node src/index.js",
-    "devStart": "nodemon src/index.js",
+    "start": "node src/start_server.js",
+    "devStart": "nodemon src/start_server.js",
     "test": "nyc mocha ./tests/test.js",
     "coverage": "nyc report ./tests/test.js && codecov -t fc85aebd-192d-49b9-af6c-0cb738d73b21",
     "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
@@ -43,6 +43,8 @@
   },
   "dependencies": {
     "express": "^4.16.1",
-    "express-handlebars": "^3.0.0"
+    "express-handlebars": "^3.0.0",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.12.0"
   }
 }
