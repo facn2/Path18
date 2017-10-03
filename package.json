@@ -32,6 +32,8 @@
   },
   "dependencies": {
     "express": "^4.16.1",
-    "express-handlebars": "^3.0.0"
+    "express-handlebars": "^3.0.0",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.12.0"
   }
 }
