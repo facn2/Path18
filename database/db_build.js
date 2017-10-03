@@ -11,7 +11,7 @@ db.once('open', () => {
   for (let i = 0; i < careers.length; i++) {
     careers[i].save((error, result) => {
       if (error) {
-        console.log(error);
+        throw new Error('there is an error');
       } else {
         dataLength++;
         if (dataLength === careers.length) {
