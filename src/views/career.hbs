@@ -1,8 +1,8 @@
 <section class="career-card">
-
   <h1>We are the amazing GERMS!</h1>
-  <h2 class="career-title">{{ career[0].title }}</h2>
+  {{#each career}}
+  <h2 class="career-title">{{this.title }}</h2>
   <image class="career-icon" src="{{ this.icon }}" alt="{{ this.title }}">
   <p class="career-tagline"> {{ this.tagline }}</p>
-
+{{/each}}
 </section>

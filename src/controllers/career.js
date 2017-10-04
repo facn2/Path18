@@ -1,4 +1,5 @@
 const Career = require('./../../database/career_model.js');
+// const careers = require('./../../database/seed_data.js');
 
 module.exports = (req, res) => {
   Career.find({}, (error, result) => {
@@ -6,8 +7,8 @@ module.exports = (req, res) => {
       console.log('Error with rendering data', error);
     } else {
       res.render('career', { career: result });
-      console.log('this is the result:', result);
-      console.log();
+      console.log(Career);
+      console.log('this is the result:', result[1].title);
     }
   });
 };

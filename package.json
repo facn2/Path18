@@ -43,6 +43,7 @@
     "snazzy": "^7.0.0"
   },
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.1",
     "express-handlebars": "^3.0.0",
     "mongodb": "^2.2.31",
