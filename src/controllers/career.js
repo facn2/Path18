@@ -1,14 +1,15 @@
 const Career = require('./../../database/career_model.js');
-// const careers = require('./../../database/seed_data.js');
 
 module.exports = (req, res) => {
   Career.find({}, (error, result) => {
     if (error) {
-      console.log('Error with rendering data', error);
+      return res.render('error', {
+        statusCode: 503,
+        message: 'Sorry cannot find anything in the database',
+        type: 'error'
+      });
     } else {
       res.render('career', { career: result });
-      console.log(Career);
-      console.log('this is the result:', result[1].title);
     }
   });
 };
