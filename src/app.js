@@ -4,7 +4,6 @@ const path = require('path');
 const app = express();
 const controllers = require('./controllers/router');
 const helpers = require('./views/helpers/index');
-const bodyParser = require('body-parser');
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
@@ -22,6 +21,5 @@ app.engine(
 app.set('port', process.env.PORT || 8181);
 app.use(express.static(path.join(__dirname, '..', 'public')));
 app.use(controllers);
-app.use(bodyParser.json());
 
 module.exports = app;
